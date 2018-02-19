@@ -30,19 +30,19 @@ public class AreFollowingPatterns {
     }
 
     // Better implementation
-//    boolean areFollowingPatterns(String[] strings, String[] patterns) {
-//        Map<String, String> m = new HashMap<>();
-//        Map<String, String> n = new HashMap<>();
-//        for (int i = 0; i < strings.length; ++i) {
-//            String s = m.get(patterns[i]);
-//            if (s == null) {
-//                m.put(patterns[i], strings[i]);
-//            } else if (!s.equals(strings[i])) return false;
-//            String t = n.get(strings[i]);
-//            if (t == null) {
-//                n.put(strings[i], patterns[i]);
-//            } else if (!t.equals(patterns[i])) return false;
-//        }
-//        return true;
-//    }
+    boolean iterativeAreFollowingPatterns(String[] strings, String[] patterns) {
+        Map<String, String> m = new HashMap<>();
+        Map<String, String> n = new HashMap<>();
+        for (int i = 0; i < strings.length; ++i) {
+            String s = m.get(patterns[i]);
+            if (s == null) {
+                m.put(patterns[i], strings[i]);
+            } else if (!s.equals(strings[i])) return false;
+            String t = n.get(strings[i]);
+            if (t == null) {
+                n.put(strings[i], patterns[i]);
+            } else if (!t.equals(patterns[i])) return false;
+        }
+        return true;
+    }
 }

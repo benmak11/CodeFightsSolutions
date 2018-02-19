@@ -32,4 +32,16 @@ public class AreFollowingPatternsTest {
         boolean result = are.areFollowingPatterns(testStrs2, testPats2);
         Assert.assertFalse(result);
     }
+
+    @Test
+    public void testAreFollowingPatternsThree() {
+        boolean result = are.iterativeAreFollowingPatterns(testStrs, testPats);
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void testAreFollowingPatternsFour() {
+        boolean result = are.iterativeAreFollowingPatterns(testStrs2, testPats2);
+        Assert.assertFalse(result);
+    }
 }
