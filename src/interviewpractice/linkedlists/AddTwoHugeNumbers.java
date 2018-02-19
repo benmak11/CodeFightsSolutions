@@ -6,7 +6,7 @@ package interviewpractice.linkedlists;
 
 public class AddTwoHugeNumbers {
 
-    ListNode<Integer> addTwoHugeNumbers(ListNode<Integer> a, ListNode<Integer> b) {
+    public ListNode<Integer> addTwoHugeNumbers(ListNode<Integer> a, ListNode<Integer> b) {
         if(a == null) return b;
         if(b == null) return a;
         if(isZero(b)) {
@@ -17,7 +17,7 @@ public class AddTwoHugeNumbers {
         return addTwoHugeNumbers(a, carry);
     }
 
-    ListNode<Integer> trim(ListNode<Integer> a) {
+    public ListNode<Integer> trim(ListNode<Integer> a) {
         while(a != null && a.value == 0) {
             a = a.next;
         }
@@ -27,7 +27,7 @@ public class AddTwoHugeNumbers {
         return a;
     }
 
-    boolean isZero(ListNode<Integer> b) {
+    public boolean isZero(ListNode<Integer> b) {
         while(b !=null) {
             if(b.value != 0) {
                 return false;
@@ -37,7 +37,7 @@ public class AddTwoHugeNumbers {
         return true;
     }
 
-    ListNode<Integer> computeCarry(ListNode<Integer> a, ListNode<Integer> b) {
+    public ListNode<Integer> computeCarry(ListNode<Integer> a, ListNode<Integer> b) {
         a = reverse(a);
         b = reverse(b);
         ListNode<Integer> head = null;
@@ -69,7 +69,7 @@ public class AddTwoHugeNumbers {
         return head;
     }
 
-    ListNode<Integer> computeRemainder(ListNode<Integer> a, ListNode<Integer> b) {
+    public ListNode<Integer> computeRemainder(ListNode<Integer> a, ListNode<Integer> b) {
         a = reverse(a);
         b = reverse(b);
         ListNode<Integer> head = null;
@@ -91,7 +91,7 @@ public class AddTwoHugeNumbers {
         return head;
     }
 
-    ListNode<Integer> reverse(ListNode<Integer> a) {
+    public ListNode<Integer> reverse(ListNode<Integer> a) {
         ListNode<Integer> x = a;
         ListNode<Integer> head = null;
         while(x != null) {
