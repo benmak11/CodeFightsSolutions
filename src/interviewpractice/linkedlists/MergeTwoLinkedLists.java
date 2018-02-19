@@ -28,7 +28,7 @@ public class MergeTwoLinkedLists {
                 secondXFactor = secondXFactor.next;
             }
 
-            last = new ListNode<>(value);
+            last = new ListNode(value);
             if(old != null) old.next = last;
             if(head == null) head = last;
         }
