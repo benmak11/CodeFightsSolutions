@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6fcfee7-3e59-40fd-90f2-a6f2dab9f312" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequences.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequencesTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRight.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRightTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RepeatedDNASequences.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequences.java">
+      <file leaf-file-name="CountSmallerToTheRight.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RepeatedDNASequencesTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequencesTest.java">
+      <file leaf-file-name="CountSmallerToTheRightTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="77" column="47" lean-forward="false" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+            <state relative-caret-position="270">
+              <caret line="20" column="75" lean-forward="false" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -76,6 +76,8 @@
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequences.java" />
         <option value="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequencesTest.java" />
+        <option value="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRight.java" />
+        <option value="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRightTest.java" />
       </list>
     </option>
   </component>
@@ -130,6 +132,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="interviewpractice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CodeFightsSolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeFightsSolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interviewpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="commonTechniquesAdvanced" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesOne">
+  <component name="RunManager" selected="JUnit.CountSmallerToTheRightTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -186,6 +195,56 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="CountSmallerToTheRightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interviewpractice.commonTechniquesAdvanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodeFightsSolutions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interviewpractice.commonTechniquesAdvanced" />
+      <option name="MAIN_CLASS_NAME" value="interviewpractice.commonTechniquesAdvanced.CountSmallerToTheRightTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CountSmallerToTheRightTest.countSmallerToTheRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interviewpractice.commonTechniquesAdvanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodeFightsSolutions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interviewpractice.commonTechniquesAdvanced" />
+      <option name="MAIN_CLASS_NAME" value="interviewpractice.commonTechniquesAdvanced.CountSmallerToTheRightTest" />
+      <option name="METHOD_NAME" value="countSmallerToTheRight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="RepeatedDNASequencesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -322,17 +381,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All Unit Tests" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesOne" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesTwo" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest.countSmallerToTheRight" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesOne" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesTwo" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest.countSmallerToTheRight" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesOne" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -352,25 +415,25 @@
       <workItem from="1519592562401" duration="335000" />
       <workItem from="1519612713110" duration="2000" />
       <workItem from="1519613479647" duration="198000" />
-      <workItem from="1519686443237" duration="1087000" />
+      <workItem from="1519686443237" duration="1644000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 34m 50s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 35m 38s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 36m 25s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 37m 24s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_CodeFightsSolutions_(1) - 2018.02.25 at 16h 07m 19s.xml">
       <configuration name="All in CodeFightsSolutions (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountSmallerToTheRightTest - 2018.02.26 at 18h 48m 36s.xml">
+      <configuration name="CountSmallerToTheRightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountSmallerToTheRightTest - 2018.02.26 at 18h 49m 15s.xml">
+      <configuration name="CountSmallerToTheRightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountSmallerToTheRightTest_countSmallerToTheRight - 2018.02.26 at 18h 46m 22s.xml">
+      <configuration name="CountSmallerToTheRightTest.countSmallerToTheRight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountSmallerToTheRightTest_countSmallerToTheRight - 2018.02.26 at 18h 47m 17s.xml">
+      <configuration name="CountSmallerToTheRightTest.countSmallerToTheRight" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RepeatedDNASequencesTest - 2018.02.26 at 18h 21m 04s.xml">
       <configuration name="RepeatedDNASequencesTest" configurationId="JUnit" />
@@ -389,7 +452,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2037000" />
+    <option name="totallyTimeSpent" value="2594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -434,15 +497,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequences.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -591,18 +646,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequencesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="879">
+          <caret line="77" column="47" lean-forward="false" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="652">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequencesTest.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="77" column="47" lean-forward="false" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+        <state relative-caret-position="120">
+          <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="75" lean-forward="false" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding />
         </state>
       </provider>
