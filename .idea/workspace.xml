@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6fcfee7-3e59-40fd-90f2-a6f2dab9f312" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/Bomber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/BomberTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/InversionCount.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/InversionCountTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,48 +27,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CountSmallerToTheRight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bomber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/Bomber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BomberTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/BomberTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountSmallerToTheRightTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRightTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="75" lean-forward="false" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,6 +67,8 @@
         <option value="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRightTest.java" />
         <option value="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/Bomber.java" />
         <option value="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/BomberTest.java" />
+        <option value="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/InversionCount.java" />
+        <option value="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/InversionCountTest.java" />
       </list>
     </option>
   </component>
@@ -205,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BomberTest.testBomberOne">
+  <component name="RunManager" selected="JUnit.InversionCountTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -301,7 +262,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="RepeatedDNASequencesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InversionCountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="interviewpractice.commonTechniquesAdvanced.*" />
@@ -312,7 +273,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="interviewpractice.commonTechniquesAdvanced" />
-      <option name="MAIN_CLASS_NAME" value="interviewpractice.commonTechniquesAdvanced.RepeatedDNASequencesTest" />
+      <option name="MAIN_CLASS_NAME" value="interviewpractice.commonTechniquesAdvanced.InversionCountTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -414,18 +375,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All Unit Tests" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesOne" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest.countSmallerToTheRight" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.BomberTest.testBomberOne" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest.countSmallerToTheRight" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BomberTest.testBomberOne" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.InversionCountTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BomberTest.testBomberOne" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest.countSmallerToTheRight" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesOne" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InversionCountTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BomberTest.testBomberOne" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest.countSmallerToTheRight" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesOne" />
       </list>
     </recent_temporary>
   </component>
@@ -446,16 +407,13 @@
       <workItem from="1519612713110" duration="2000" />
       <workItem from="1519613479647" duration="198000" />
       <workItem from="1519686443237" duration="1644000" />
-      <workItem from="1519780059279" duration="429000" />
+      <workItem from="1519780059279" duration="682000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="BomberTest_testBomberOne - 2018.02.27 at 20h 20m 28s.xml">
       <configuration name="BomberTest.testBomberOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountSmallerToTheRightTest - 2018.02.26 at 18h 48m 36s.xml">
-      <configuration name="CountSmallerToTheRightTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CountSmallerToTheRightTest - 2018.02.26 at 18h 49m 15s.xml">
       <configuration name="CountSmallerToTheRightTest" configurationId="JUnit" />
@@ -465,6 +423,9 @@
     </history-entry>
     <history-entry file="CountSmallerToTheRightTest_countSmallerToTheRight - 2018.02.26 at 18h 47m 17s.xml">
       <configuration name="CountSmallerToTheRightTest.countSmallerToTheRight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InversionCountTest - 2018.02.27 at 20h 36m 04s.xml">
+      <configuration name="InversionCountTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RepeatedDNASequencesTest - 2018.02.26 at 18h 21m 04s.xml">
       <configuration name="RepeatedDNASequencesTest" configurationId="JUnit" />
@@ -483,11 +444,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3023000" />
+    <option name="totallyTimeSpent" value="3276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -723,6 +683,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/BomberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/InversionCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/InversionCountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -735,14 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/BomberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding />
         </state>
       </provider>
