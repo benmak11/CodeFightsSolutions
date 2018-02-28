@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6fcfee7-3e59-40fd-90f2-a6f2dab9f312" name="Default" comment="" />
+    <list default="true" id="f6fcfee7-3e59-40fd-90f2-a6f2dab9f312" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/InversionCount.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/InversionCountTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +27,23 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +61,14 @@
         <option value="$PROJECT_DIR$/.idea/description.xml" />
         <option value="$PROJECT_DIR$/.idea/encodings.xml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequences.java" />
+        <option value="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequencesTest.java" />
+        <option value="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRight.java" />
+        <option value="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRightTest.java" />
+        <option value="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/Bomber.java" />
+        <option value="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/BomberTest.java" />
+        <option value="$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/InversionCount.java" />
+        <option value="$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/InversionCountTest.java" />
       </list>
     </option>
   </component>
@@ -73,7 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
@@ -84,10 +111,29 @@
               <item name="CodeFightsSolutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeFightsSolutions" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CodeFightsSolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeFightsSolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeFightsSolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeFightsSolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interviewpractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeFightsSolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeFightsSolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interviewpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="commonTechniquesAdvanced" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -98,6 +144,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="interviewpractice.commonTechniquesAdvanced" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.InversionCountTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -131,6 +186,131 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="BomberTest.testBomberOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interviewpractice.commonTechniquesAdvanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodeFightsSolutions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interviewpractice.commonTechniquesAdvanced" />
+      <option name="MAIN_CLASS_NAME" value="interviewpractice.commonTechniquesAdvanced.BomberTest" />
+      <option name="METHOD_NAME" value="testBomberOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CountSmallerToTheRightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interviewpractice.commonTechniquesAdvanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodeFightsSolutions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interviewpractice.commonTechniquesAdvanced" />
+      <option name="MAIN_CLASS_NAME" value="interviewpractice.commonTechniquesAdvanced.CountSmallerToTheRightTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CountSmallerToTheRightTest.countSmallerToTheRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interviewpractice.commonTechniquesAdvanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodeFightsSolutions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interviewpractice.commonTechniquesAdvanced" />
+      <option name="MAIN_CLASS_NAME" value="interviewpractice.commonTechniquesAdvanced.CountSmallerToTheRightTest" />
+      <option name="METHOD_NAME" value="countSmallerToTheRight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="InversionCountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interviewpractice.commonTechniquesAdvanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodeFightsSolutions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interviewpractice.commonTechniquesAdvanced" />
+      <option name="MAIN_CLASS_NAME" value="interviewpractice.commonTechniquesAdvanced.InversionCountTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="RepeatedDNASequencesTest.testRepeatedDNASequencesOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="interviewpractice.commonTechniquesAdvanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodeFightsSolutions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interviewpractice.commonTechniquesAdvanced" />
+      <option name="MAIN_CLASS_NAME" value="interviewpractice.commonTechniquesAdvanced.RepeatedDNASequencesTest" />
+      <option name="METHOD_NAME" value="testRepeatedDNASequencesOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -192,6 +372,23 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All Unit Tests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesOne" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest.countSmallerToTheRight" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BomberTest.testBomberOne" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.InversionCountTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InversionCountTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BomberTest.testBomberOne" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CountSmallerToTheRightTest.countSmallerToTheRight" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RepeatedDNASequencesTest.testRepeatedDNASequencesOne" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -209,74 +406,75 @@
       <workItem from="1519592562401" duration="335000" />
       <workItem from="1519612713110" duration="2000" />
       <workItem from="1519613479647" duration="198000" />
-      <workItem from="1519686443237" duration="14000" />
+      <workItem from="1519686443237" duration="1644000" />
+      <workItem from="1519780059279" duration="682000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_Unit_Tests - 2018.02.25 at 16h 39m 27s.xml">
-      <configuration name="All Unit Tests" configurationId="JUnit" />
+    <history-entry file="BomberTest_testBomberOne - 2018.02.27 at 20h 20m 28s.xml">
+      <configuration name="BomberTest.testBomberOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 03m 50s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
+    <history-entry file="CountSmallerToTheRightTest - 2018.02.26 at 18h 49m 15s.xml">
+      <configuration name="CountSmallerToTheRightTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 04m 02s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
+    <history-entry file="CountSmallerToTheRightTest_countSmallerToTheRight - 2018.02.26 at 18h 46m 22s.xml">
+      <configuration name="CountSmallerToTheRightTest.countSmallerToTheRight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 05m 02s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
+    <history-entry file="CountSmallerToTheRightTest_countSmallerToTheRight - 2018.02.26 at 18h 47m 17s.xml">
+      <configuration name="CountSmallerToTheRightTest.countSmallerToTheRight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 06m 41s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
+    <history-entry file="InversionCountTest - 2018.02.27 at 20h 36m 04s.xml">
+      <configuration name="InversionCountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 34m 50s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
+    <history-entry file="RepeatedDNASequencesTest - 2018.02.26 at 18h 21m 04s.xml">
+      <configuration name="RepeatedDNASequencesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 35m 38s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
+    <history-entry file="RepeatedDNASequencesTest_testRepeatedDNASequencesOne - 2018.02.26 at 18h 16m 50s.xml">
+      <configuration name="RepeatedDNASequencesTest.testRepeatedDNASequencesOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 36m 25s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
+    <history-entry file="RepeatedDNASequencesTest_testRepeatedDNASequencesOne - 2018.02.26 at 18h 25m 25s.xml">
+      <configuration name="RepeatedDNASequencesTest.testRepeatedDNASequencesOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions - 2018.02.25 at 16h 37m 24s.xml">
-      <configuration name="All in CodeFightsSolutions" configurationId="JUnit" />
+    <history-entry file="RepeatedDNASequencesTest_testRepeatedDNASequencesTwo - 2018.02.26 at 18h 18m 32s.xml">
+      <configuration name="RepeatedDNASequencesTest.testRepeatedDNASequencesTwo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_CodeFightsSolutions_(1) - 2018.02.25 at 16h 07m 19s.xml">
-      <configuration name="All in CodeFightsSolutions (1)" configurationId="JUnit" />
+    <history-entry file="RepeatedDNASequencesTest_testRepeatedDNASequencesTwo - 2018.02.26 at 18h 19m 00s.xml">
+      <configuration name="RepeatedDNASequencesTest.testRepeatedDNASequencesTwo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="964000" />
+    <option name="totallyTimeSpent" value="3276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44335663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44256347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -289,10 +487,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="75" lean-forward="false" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/interviewioquestions/ExpandStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -434,6 +650,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequencesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="879">
+          <caret line="77" column="47" lean-forward="false" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/RepeatedDNASequences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="75" lean-forward="false" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/BomberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/InversionCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/interviewpractice/commonTechniquesAdvanced/InversionCountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/CountSmallerToTheRight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interviewpractice/commonTechniquesAdvanced/Bomber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
