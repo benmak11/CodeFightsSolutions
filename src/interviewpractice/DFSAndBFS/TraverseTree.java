@@ -25,7 +25,6 @@ public class TraverseTree {
     /**
      * Currently utilizing Tree class from trees package
      */
-    
     int[] traverseTree(Tree<Integer> t) {
         if(t==null)  return new int[0];
         List<Integer> list = new ArrayList<Integer>();
