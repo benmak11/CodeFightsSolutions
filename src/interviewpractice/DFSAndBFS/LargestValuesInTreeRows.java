@@ -11,7 +11,7 @@ import java.util.Queue;
  * @author benmakusha
  */
 public class LargestValuesInTreeRows {
-    
+
     int[] largestValuesInTreeRows(Tree<Integer> t) {
         if (t == null) return new int[0];
         List<Integer> list = new ArrayList<>();
