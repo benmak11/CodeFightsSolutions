@@ -52,7 +52,7 @@ public class Bomber {
                         k4++;
                     }
                 }
-                System.out.println("cnt= " + cnt + " @ " + "i: " + i + " j: " + j);
+                //System.out.println("cnt= " + cnt + " @ " + "i: " + i + " j: " + j);
                 max = Math.max(max, cnt);
             }
 

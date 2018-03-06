@@ -23,6 +23,8 @@ public class RemoveKFromList {
             ourListNode = ourNode_next;
         }
 
+        if (l != null)
+            System.out.println(l.value);
         return l;
     }
 

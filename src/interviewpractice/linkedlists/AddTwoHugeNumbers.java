@@ -22,7 +22,7 @@ public class AddTwoHugeNumbers {
             a = a.next;
         }
         if(a == null){
-            return new ListNode<Integer>(0);
+            return new ListNode<>(0);
         }
         return a;
     }
@@ -49,7 +49,7 @@ public class AddTwoHugeNumbers {
             val3 = (val1 + val2) / 10000;
 
             old = head;
-            head = new ListNode<Integer>(val3);
+            head = new ListNode<>(val3);
             head.next = old;
 
             if(a != null) a = a.next;
@@ -59,7 +59,7 @@ public class AddTwoHugeNumbers {
         ListNode<Integer> x = head;
         while(x != null) {
             if(x.next == null){
-                x.next = new ListNode<Integer>(0);
+                x.next = new ListNode<>(0);
                 break;
             }
             x = x.next;
@@ -81,7 +81,7 @@ public class AddTwoHugeNumbers {
             int val3 = (val1 + val2) % 10000;
 
             ListNode<Integer> old = head;
-            head = new ListNode<Integer>(val3);
+            head = new ListNode<>(val3);
             head.next = old;
 
             if(a != null) a = a.next;
@@ -97,7 +97,7 @@ public class AddTwoHugeNumbers {
         while(x != null) {
 
             ListNode<Integer> old = head;
-            head = new ListNode<Integer>(x.value);
+            head = new ListNode<>(x.value);
             head.next = old;
             x = x.next;
         }

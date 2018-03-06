@@ -7,7 +7,7 @@ public class ListNode<T> {
     T value;
     ListNode<T> next;
 
-    ListNode (T x) {
+    public ListNode (T x) {
         value = x;
     }
 
