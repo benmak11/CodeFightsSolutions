@@ -1,5 +1,7 @@
 package interviewpractice.linkedlists;
 
+import java.util.Stack;
+
 /**
  * @author benmakusha
  */
@@ -32,6 +34,34 @@ public class IsListPalindrome {
             ourListNode = ourListNode.next;
             ourSecondListNode = ourSecondListNode.next;
             index2++;
+        }
+        return true;
+    }
+
+    // Iterative Solution
+    boolean isListPalindromeIterative(ListNode<Integer> l) {
+        ListNode<Integer> fast = l;
+        ListNode<Integer> slow = l;
+
+        Stack<Integer> stack = new Stack<Integer>();
+
+        while(fast != null && fast.next != null) {
+            stack.push(slow.value);
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        if (fast != null) {
+            slow = slow.next;
+        }
+
+        while (slow != null) {
+            int top = stack.pop().intValue();
+
+            if (top != slow.value) {
+                return false;
+            }
+            slow = slow.next;
         }
         return true;
     }
