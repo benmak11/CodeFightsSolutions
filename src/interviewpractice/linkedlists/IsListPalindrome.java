@@ -8,6 +8,36 @@ import java.util.Stack;
 
 public class IsListPalindrome {
 
+    // Iterative Solution
+    boolean isListPalindromeIterative(ListNode<Integer> l) {
+        ListNode<Integer> fast = l;
+        ListNode<Integer> slow = l;
+
+        Stack<Integer> stack = new Stack<>();
+
+        while(fast != null && fast.next != null) {
+            stack.push(slow.value);
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        if (fast != null) {
+            slow = slow.next;
+        }
+
+        while (slow != null) {
+            int top = stack.pop().intValue();
+            System.out.println("top: " + top + "\nslow.value: " + slow.value);
+
+            if (top != slow.value) {
+                return false;
+            }
+            slow = slow.next;
+        }
+        return true;
+    }
+
+    /**
     public boolean isListPalindrome(ListNode<Integer> l) {
 
         ListNode<Integer> ourListNode = l;
@@ -37,32 +67,5 @@ public class IsListPalindrome {
         }
         return true;
     }
-
-    // Iterative Solution
-    boolean isListPalindromeIterative(ListNode<Integer> l) {
-        ListNode<Integer> fast = l;
-        ListNode<Integer> slow = l;
-
-        Stack<Integer> stack = new Stack<Integer>();
-
-        while(fast != null && fast.next != null) {
-            stack.push(slow.value);
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-
-        if (fast != null) {
-            slow = slow.next;
-        }
-
-        while (slow != null) {
-            int top = stack.pop().intValue();
-
-            if (top != slow.value) {
-                return false;
-            }
-            slow = slow.next;
-        }
-        return true;
-    }
+     */
 }
