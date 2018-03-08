@@ -11,16 +11,16 @@ public class DecodeStringTest {
 
     private DecodeString decode = new DecodeString();
 
-    private String inputString = "";
-    private String resultStr = "";
-    private String inputString2 = "";
-    private String resultStr2 = "";
-    private String inputString3 = "";
-    private String resultStr3 = "";
-    private String inputString4 = "";
-    private String resultStr4 = "";
-    private String inputString5 = "";
-    private String resultStr5 = "";
+    private String inputString = "4[ab]";
+    private String resultStr = "abababab";
+    private String inputString2 = "2[b3[a]]";
+    private String resultStr2 = "baaabaaa";
+    private String inputString3 = "3[a]2[bc]";
+    private String resultStr3 = "aaabcbc";
+    private String inputString4 = "2[a]";
+    private String resultStr4 = "aa";
+    private String inputString5 = "2[2[2[2[b]]]]";
+    private String resultStr5 = "bbbbbbbbbbbbbbbb";
 
 
     @Test
