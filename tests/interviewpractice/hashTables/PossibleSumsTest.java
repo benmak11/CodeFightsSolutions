@@ -1,6 +1,5 @@
 package interviewpractice.hashTables;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -27,30 +26,30 @@ public class PossibleSumsTest {
     @Test
     public void testPossibleSumsOne() {
         int result = pos.possibleSums(inputArray, quantityArray);
-        Assert.assertEquals(9, result);
+        assertEquals(9, result);
     }
 
     @Test
     public void testPossibleSumsTwo() {
         int result = pos.possibleSums(inputArray2, quantityArray2);
-        Assert.assertEquals(122, result);
+        assertEquals(122, result);
     }
 
     @Test
     public void testPossibleSumsThree() {
         int result = pos.possibleSums(inputArray3, quantityArray3);
-        Assert.assertEquals(5, result);
+        assertEquals(5, result);
     }
 
     @Test
     public void testPossibleSumsFour() {
         int result = pos.possibleSums(inputArray4, quantityArray4);
-        Assert.assertEquals(5, result);
+        assertEquals(5, result);
     }
 
     @Test
     public void testPossibleSumsFive() {
         int result = pos.possibleSums(inputArray5, quantityArray5);
-        Assert.assertEquals(5004, result);
+        assertEquals(5004, result);
     }
 }

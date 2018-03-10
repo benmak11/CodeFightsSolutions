@@ -1,6 +1,5 @@
 package interviewpractice.arrays;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -14,20 +13,15 @@ public class RotateImageTest {
     private RotateImage rotate = new RotateImage();
 
     private int[][] testImage = new int[][]{
-            {1, 2, 3},
-            {4, 5, 6},
-            {7, 8, 9}
+            {1, 2, 3}, {4, 5, 6}, {7, 8, 9}
     };
-
     private int[][] resultImage = new int[][]{
-            {7, 4, 1},
-            {8, 5, 2},
-            {9, 6, 3}
+            {7, 4, 1}, {8, 5, 2}, {9, 6, 3}
     };
 
     @Test
-    public void rotateImage() {
+    public void testRotateImageOne() {
         int[][] result = rotate.rotateImage(testImage);
-        Assert.assertEquals(resultImage, result);
+        assertArrayEquals(resultImage, result);
     }
 }

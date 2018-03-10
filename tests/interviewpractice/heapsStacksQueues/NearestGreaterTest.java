@@ -26,40 +26,26 @@ public class NearestGreaterTest {
     @Test
     public void testNearestGreaterOne() {
         int[] result = nearest.nearestGreater(inputArray);
-        int j = 0;
-        for (Integer i : result) {
-            assertEquals(resultArray[j], i.intValue());
-            j++;
-        }
+        assertArrayEquals(resultArray, result);
     }
 
     @Test
     public void testNearestGreaterTwo() {
         int[] result = nearest.nearestGreater(inputArray2);
-        int j = 0;
-        for (Integer i : result) {
-            assertEquals(resultArray2[j], i.intValue());
-            j++;
-        }
+        assertArrayEquals(resultArray2, result);
+
     }
 
     @Test
     public void testNearestGreaterThree() {
         int[] result = nearest.nearestGreater(inputArray3);
-        int j = 0;
-        for (Integer i : result) {
-            assertEquals(resultArray3[j], i.intValue());
-            j++;
-        }
+        assertArrayEquals(resultArray3, result);
+
     }
 
     @Test
     public void testNearestGreaterFour() {
         int[] result = nearest.nearestGreater(inputArray4);
-        int j = 0;
-        for (Integer i : result) {
-            assertEquals(resultArray4[j], i.intValue());
-            j++;
-        }
+        assertArrayEquals(resultArray4, result);
     }
 }

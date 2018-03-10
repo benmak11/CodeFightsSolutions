@@ -20,17 +20,13 @@ public class StringPermutationsTest {
     @Test
     public void testStringPermutationsOne() {
         String[] result = str.stringPermutations(inputStr);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(inputResult[i], result[i]);
-        }
+        assertArrayEquals(inputResult, result);
     }
 
     @Test
     public void testStringPermutationsTwo() {
         String[] result = str.stringPermutations(inputStr2);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(inputResult2[i], result[i]);
-        }
+        assertArrayEquals(inputResult2, result);
     }
 
 }

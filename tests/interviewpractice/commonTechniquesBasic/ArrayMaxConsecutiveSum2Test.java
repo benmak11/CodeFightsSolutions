@@ -1,6 +1,5 @@
 package interviewpractice.commonTechniquesBasic;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -23,36 +22,36 @@ public class ArrayMaxConsecutiveSum2Test {
     @Test
     public void testArrayMaxConsecutiveSum2One() {
         int result = arrMaxSum.arrayMaxConsecutiveSum2(inputArray);
-        Assert.assertEquals(7, result);
+        assertEquals(7, result);
     }
 
     @Test
     public void testArrayMaxConsecutiveSum2Two() {
         int result = arrMaxSum.arrayMaxConsecutiveSum2(inputArray2);
-        Assert.assertEquals(-1, result);
+        assertEquals(-1, result);
     }
 
     @Test
     public void testArrayMaxConsecutiveSum2Three() {
         int result = arrMaxSum.arrayMaxConsecutiveSum2(inputArray3);
-        Assert.assertEquals(3, result);
+        assertEquals(3, result);
     }
 
     @Test
     public void testArrayMaxConsecutiveSum2Four() {
         int result = arrMaxSum.arrayMaxConsecutiveSum2(inputArray4);
-        Assert.assertEquals(8, result);
+        assertEquals(8, result);
     }
 
     @Test
     public void testArrayMaxConsecutiveSum2Five() {
         int result = arrMaxSum.arrayMaxConsecutiveSum2(inputArray5);
-        Assert.assertEquals(14, result);
+        assertEquals(14, result);
     }
 
     @Test
     public void testArrayMaxConsecutiveSum2Six() {
         int result = arrMaxSum.arrayMaxConsecutiveSum2(inputArray6);
-        Assert.assertEquals(1069, result);
+        assertEquals(1069, result);
     }
 }

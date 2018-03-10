@@ -1,6 +1,5 @@
 package interviewpractice.commonTechniquesBasic;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -26,18 +25,18 @@ public class SumOfTwoTest {
     @Test
     public void testSumOfTwoOne() {
         boolean result = sum.sumOfTwo(firstInputArray, secInputArray, v1);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testSumOfTwoTwo() {
         boolean result = sum.sumOfTwo(firstInputArray2, secInputArray2, v2);
-        Assert.assertFalse(result);
+        assertFalse(result);
     }
 
     @Test
     public void testSumOfTwoThree() {
         boolean result = sum.sumOfTwo(firstInputArray3, secInputArray3, v3);
-        Assert.assertFalse(result);
+        assertFalse(result);
     }
 }

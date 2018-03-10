@@ -1,7 +1,8 @@
 package interviewpractice.sorting;
 
-import org.junit.Assert;
 import org.junit.Test;
+
+import static org.junit.Assert.assertArrayEquals;
 
 /**
  * @author benmakusha
@@ -22,29 +23,24 @@ public class QuickSortTest {
     @Test
     public void testQuickSortOne() {
         int[] result = quick.quickSort(inputArray, 0, 3);
-        for (int i = 0; i < result.length; i++)
-            Assert.assertEquals(sortedOne[i], result[i]);
+        assertArrayEquals(sortedOne, result);
     }
 
     @Test
     public void testQuickSortTwo() {
         int[] result = quick.quickSort(inputArray2, 0, 7);
-        for (int i = 0; i < result.length; i++)
-            Assert.assertEquals(sortedTwo[i], result[i]);
+        assertArrayEquals(sortedTwo, result);
     }
 
     @Test
     public void testQuickSortThree() {
         int[] result = quick.quickSort(inputArray3, 0, 1);
-        for (int i = 0; i < result.length; i++)
-            Assert.assertEquals(sortedThree[i], result[i]);
-
+        assertArrayEquals(sortedThree, result);
     }
 
     @Test
     public void testQuickSortFour() {
         int[] result = quick.quickSort(inputArray4, 3, 3);
-        for (int i = 0; i < result.length; i++)
-            Assert.assertEquals(sortedFour[i], result[i]);
+        assertArrayEquals(sortedFour, result);
     }
 }

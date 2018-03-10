@@ -26,60 +26,60 @@ public class ContainsDuplicatesTest {
     @Test
     public void testContainsDuplicatesOne() {
         boolean result = contains.containsDuplicates(inputArray);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testContainsDuplicatesTwo() {
         boolean result = contains.containsDuplicates(inputArray2);
-        Assert.assertFalse(result);
+        assertFalse(result);
     }
 
     @Test
     public void testContainsDuplicatesThree() {
         boolean result = contains.containsDuplicates(inputArray3);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testContainsDuplicatesFour() {
         boolean result = contains.containsDuplicates(inputArray4);
-        Assert.assertFalse(result);
+        assertFalse(result);
     }
 
     @Test
     public void testContainsDuplicatesFive() {
         boolean result = contains.containsDuplicates(inputArray5);
-        Assert.assertFalse(result);
+        assertFalse(result);
     }
 
     @Test
     public void testContainsDuplicatesSix() {
         boolean result = contains.containsDuplicates(inputArray6);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testContainsDuplicatesSeven() {
         boolean result = contains.containsDuplicates(inputArray7);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testContainsDuplicatesEight() {
         boolean result = contains.containsDuplicates(inputArray8);
-        Assert.assertFalse(result);
+        assertFalse(result);
     }
 
     @Test
     public void testContainsDuplicatesNine() {
         boolean result = contains.containsDuplicates(inputArray9);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testContainsDuplicatesTen() {
         boolean result = contains.containsDuplicates(inputArray10);
-        Assert.assertFalse(result);
+        assertFalse(result);
     }
 }

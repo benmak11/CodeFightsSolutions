@@ -29,31 +29,25 @@ public class MinimumOnStackTest {
     @Test
     public void testMinimumOnStackOne() {
         int[] result = min.minimumOnStack(operations);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray[i], result[i]);
-        }
+        assertArrayEquals(resultArray, result);
+
     }
 
     @Test
     public void testMinimumOnStackTwo() {
         int[] result = min.minimumOnStack(operations2);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray2[i], result[i]);
-        }
+        assertArrayEquals(resultArray2, result);
     }
 
     @Test
     public void testMinimumOnStackThree() {
         int[] result = min.minimumOnStack(operations3);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray3[i], result[i]);
-        }
+        assertArrayEquals(resultArray3, result);
     }
+
     @Test
     public void testMinimumOnStackFour() {
         int[] result = min.minimumOnStack(operations4);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray4[i], result[i]);
-        }
+        assertArrayEquals(resultArray4, result);
     }
 }

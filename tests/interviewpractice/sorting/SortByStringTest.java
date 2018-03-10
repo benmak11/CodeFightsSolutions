@@ -1,6 +1,5 @@
 package interviewpractice.sorting;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -42,54 +41,54 @@ public class SortByStringTest {
     @Test
     public void testSortByStringOne() {
         String result = sort.sortByString(inputVersionOne, inputVersionTwo);
-        Assert.assertEquals("theeraw", result);
+        assertEquals("theeraw", result);
     }
 
     @Test
     public void testSortByStringTwo() {
         String result = sort.sortByString(inputVersionOne2, inputVersionTwo2);
-        Assert.assertEquals("oodg", result);
+        assertEquals("oodg", result);
     }
 
     @Test
     public void testSortByStringThree() {
         String result = sort.sortByString(inputVersionOne3, inputVersionTwo3);
-        Assert.assertEquals("pseeh", result);
+        assertEquals("pseeh", result);
     }
 
     @Test
     public void testSortByStringFour() {
         String result = sort.sortByString(inputVersionOne4, inputVersionTwo4);
-        Assert.assertEquals("", result);
+        assertEquals("", result);
     }
 
     @Test
     public void testSortByStringFive() {
         String result = sort.sortByString(inputVersionOne5, inputVersionTwo5);
-        Assert.assertEquals("a", result);
+        assertEquals("a", result);
     }
 
     @Test
     public void testSortByStringSix() {
         String result = sort.sortByString(inputVersionOne6, inputVersionTwo6);
-        Assert.assertEquals("qsfiaaurjk", result);
+        assertEquals("qsfiaaurjk", result);
     }
 
     @Test
     public void testSortByStringSeven() {
         String result = sort.sortByString(inputVersionOne7, inputVersionTwo7);
-        Assert.assertEquals("sssddccaawtttiggeeexxpppz", result);
+        assertEquals("sssddccaawtttiggeeexxpppz", result);
     }
 
     @Test
     public void testSortByStringEight() {
         String result = sort.sortByString(inputVersionOne8, inputVersionTwo8);
-        Assert.assertEquals("bbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaa", result);
+        assertEquals("bbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaa", result);
     }
 
     @Test
     public void testSortByStringNine() {
         String result = sort.sortByString(inputVersionOne9, inputVersionTwo9);
-        Assert.assertEquals("kzbbmidddqqroyyyyyycceeeevvggggjjassthllnxxxfppppp", result);
+        assertEquals("kzbbmidddqqroyyyyyycceeeevvggggjjassthllnxxxfppppp", result);
     }
 }

@@ -40,12 +40,12 @@ public class Sudoku2Test {
     @Test
     public void testSudoku2One() {
         boolean result = sudoku.sudoku2(sudokuGrid);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testSudoku2Two() {
         boolean result = sudoku.sudoku2(sudokuGrid2);
-        Assert.assertFalse(result);
+        assertFalse(result);
     }
 }

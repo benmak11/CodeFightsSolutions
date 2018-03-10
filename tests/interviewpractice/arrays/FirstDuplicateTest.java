@@ -1,7 +1,5 @@
 package interviewpractice.arrays;
 
-import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -12,18 +10,12 @@ import static org.junit.Assert.*;
 
 public class FirstDuplicateTest {
 
-    private FirstDuplicate firstDuplicate;
-    private int[] array;
-
-    @Before
-    public void setUp() throws Exception {
-        firstDuplicate = new FirstDuplicate();
-        array = new int[] {2, 3, 3, 1, 5, 2};
-    }
+    private FirstDuplicate firstDuplicate = new FirstDuplicate();
+    private int[] array = new int[] {2, 3, 3, 1, 5, 2};
 
     @Test
-    public void firstDuplicate() {
+    public void testFirstDuplicateOne() {
         int result = firstDuplicate.firstDuplicate(array);
-        Assert.assertEquals(3, result);
+        assertEquals(3, result);
     }
 }

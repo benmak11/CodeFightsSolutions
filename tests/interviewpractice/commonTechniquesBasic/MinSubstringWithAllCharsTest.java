@@ -1,7 +1,8 @@
 package interviewpractice.commonTechniquesBasic;
 
-import org.junit.Assert;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * @author benmakusha
@@ -20,18 +21,18 @@ public class MinSubstringWithAllCharsTest {
     @Test
     public void testMinSubstringWithAllCharsOne() {
         String result = min.minSubstringWithAllChars(inputStr, inputStrChar);
-        Assert.assertEquals("banc", result);
+        assertEquals("banc", result);
     }
 
     @Test
     public void  testMinSubstringWithAllCharsTwo() {
         String result = min.minSubstringWithAllChars(inputStr2, inputStrChar2);
-        Assert.assertEquals("zqyvbfe", result);
+        assertEquals("zqyvbfe", result);
     }
 
     @Test
     public void  testMinSubstringWithAllCharsThree() {
         String result = min.minSubstringWithAllChars(inputStr3, inputStrChar3);
-        Assert.assertEquals("", result);
+        assertEquals("", result);
     }
 }

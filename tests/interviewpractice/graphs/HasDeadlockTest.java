@@ -11,36 +11,12 @@ public class HasDeadlockTest {
 
     private HasDeadlock has = new HasDeadlock();
 
-    private int[][] inputArray = new int[][]{
-            {1},
-            {2},
-            {3,4},
-            {4},
-            {0} };
-    private int[][] inputArray2 = new int[][] {
-            {1,2,3},
-            {2,3},
-            {3},
-            {}
-    };
-    private int[][] inputArray3 = new int[][] {
-            {2},
-            {0,2},
-            {},
-            {4,2},
-            {2,3}
-    };
-    private int[][] inputArray4 = new int[][] {
-            {}
-    };
-    private int[][] inputArray5 = new int[][] {
-            {2,3,5},
-            {0,2,5,4,3},
-            {3},
-            {5},
-            {3,5},
-            {}
-    };
+    private int[][] inputArray = new int[][]{ {1}, {2}, {3,4}, {4}, {0} };
+    private int[][] inputArray2 = new int[][] { {1,2,3}, {2,3}, {3}, {} };
+    private int[][] inputArray3 = new int[][] {{2}, {0,2}, {}, {4,2}, {2,3} };
+    private int[][] inputArray4 = new int[][] { {} };
+    private int[][] inputArray5 = new int[][] { {2,3,5}, {0,2,5,4,3}, {3}, {5},
+            {3,5}, {} };
 
     @Test
     public void testHasDeadlockOne() {

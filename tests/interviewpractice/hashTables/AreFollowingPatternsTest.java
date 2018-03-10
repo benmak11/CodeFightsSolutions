@@ -1,6 +1,5 @@
 package interviewpractice.hashTables;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -24,24 +23,24 @@ public class AreFollowingPatternsTest {
     @Test
     public void testAreFollowingPatternsOne() {
         boolean result = are.areFollowingPatterns(testStrs, testPats);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testAreFollowingPatternsTwo() {
         boolean result = are.areFollowingPatterns(testStrs2, testPats2);
-        Assert.assertFalse(result);
+        assertFalse(result);
     }
 
     @Test
     public void testAreFollowingPatternsThree() {
         boolean result = are.iterativeAreFollowingPatterns(testStrs, testPats);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testAreFollowingPatternsFour() {
         boolean result = are.iterativeAreFollowingPatterns(testStrs2, testPats2);
-        Assert.assertFalse(result);
+        assertFalse(result);
     }
 }

@@ -20,24 +20,18 @@ public class FindLongestSubarrayBySumTest {
     @Test
     public void testFindLongestSubarrayBySumOne() {
         int[] result = find.findLongestSubarrayBySum(12, inputArray);
-        for (int i = 0; i < result.length; i++) {
-            Assert.assertEquals(firstResArr[i], result[i]);
-        }
+        Assert.assertArrayEquals(firstResArr, result);
     }
 
     @Test
     public void testFindLongestSubarrayBySumTwo() {
         int[] result = find.findLongestSubarrayBySum(15, inputArray2);
-        for (int i = 0; i < result.length; i++) {
-            Assert.assertEquals(secResArr[i], result[i]);
-        }
+        Assert.assertArrayEquals(secResArr, result);
     }
 
     @Test
     public void testFindLongestSubarrayBySumThree() {
         int[] result = find.findLongestSubarrayBySum(3, inputArray3);
-        for (int i = 0; i < result.length; i++) {
-            Assert.assertEquals(thirdResArr[i], result[i]);
-        }
+        Assert.assertArrayEquals(thirdResArr, result);
     }
 }

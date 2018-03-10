@@ -16,8 +16,8 @@ public class FirstNotRepeatingCharacterTest {
     private String testStr = "abacabad";
 
     @Test
-    public void firstNotRepeatingCharacter() {
+    public void testFirstNotRepeatingCharacterOne() {
         char result = frt.firstNotRepeatingCharacter(testStr);
-        Assert.assertEquals('c', result);
+        assertEquals('c', result);
     }
 }

@@ -1,6 +1,5 @@
 package interviewpractice.hashTables;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -36,24 +35,24 @@ public class SwapLexOrderTest {
     @Test
     public void testSwapLexOrderOne() {
         String result = swap.swapLexOrder(inputStr, inputPairsArray);
-        Assert.assertEquals("dbca", result);
+        assertEquals("dbca", result);
     }
 
     @Test
     public void testSwapLexOrderTwo() {
         String result = swap.swapLexOrder(inputStr2, inputPairsArray2);
-        Assert.assertEquals("dbcaefhg", result);
+        assertEquals("dbcaefhg", result);
     }
 
     @Test
     public void testSwapLexOrderThree() {
         String result = swap.swapLexOrder(inputStr3, inputPairsArray3);
-        Assert.assertEquals("zdxrabca", result);
+        assertEquals("zdxrabca", result);
     }
 
     @Test
     public void testSwapLexOrderFour() {
         String result = swap.swapLexOrder(inputStr4, inputPairsArray4);
-        Assert.assertEquals("z", result);
+        assertEquals("z", result);
     }
 }

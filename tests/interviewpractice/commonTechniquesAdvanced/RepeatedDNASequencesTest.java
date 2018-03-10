@@ -1,6 +1,5 @@
 package interviewpractice.commonTechniquesAdvanced;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -32,50 +31,42 @@ public class RepeatedDNASequencesTest {
     @Test
     public void testRepeatedDNASequencesOne() {
         String[] result = repeated.repeatedDNASequences(inputDNAOne);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(expectedOutput1[i], result[i]);
-        }
+        assertArrayEquals(expectedOutput1, result);
     }
 
     @Test
     public void testRepeatedDNASequencesTwo() {
         String[] result = repeated.repeatedDNASequences(inputDNATwo);
-        assertEquals(new String[]{}, result);
+        assertArrayEquals(new String[0], result);
     }
 
     @Test
     public void testRepeatedDNASequencesThree() {
         String[] result = repeated.repeatedDNASequences(inputDNAThree);
-        assertEquals(new String[]{}, result);
+        assertArrayEquals(new String[]{}, result);
     }
 
     @Test
     public void testRepeatedDNASequencesFour() {
         String[] result = repeated.repeatedDNASequences(inputDNAFour);
-        assertEquals(new String[]{}, result);
+        assertArrayEquals(new String[]{}, result);
     }
 
     @Test
     public void testRepeatedDNASequencesFive() {
         String[] result = repeated.repeatedDNASequences(inputDNAFive);
-        for (int i = 0; i < result.length; i++) {
-            Assert.assertEquals(expectedOutput2[i], result[i]);
-        }
+        assertArrayEquals(expectedOutput2, result);
     }
 
     @Test
     public void testRepeatedDNASequencesSix() {
         String[] result = repeated.repeatedDNASequences(inputDNASix);
-        for (int i = 0; i < result.length; i++) {
-            Assert.assertEquals(expectedOutput3[i], result[i]);
-        }
+        assertArrayEquals(expectedOutput3, result);
     }
 
     @Test
     public void testRepeatedDNASequencesSeven() {
         String[] result = repeated.repeatedDNASequences(inputDNASeveb);
-        for (int i = 0; i < result.length; i++) {
-            Assert.assertEquals(expectedOutput4[i], result[i]);
-        }
+        assertArrayEquals(expectedOutput4, result);
     }
 }

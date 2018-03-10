@@ -1,6 +1,5 @@
 package interviewpractice.sorting;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -34,35 +33,30 @@ public class SortedSquaredArrayTest {
     @Test
     public void testSortedSquaredArrayOne() {
         int[] result = sorted.sortedSquaredArray(inputArray);
-        for (int i = 0; i < result.length; i++)
-            Assert.assertEquals(sortedOne[i], result[i]);
+        assertArrayEquals(sortedOne, result);
     }
 
     @Test
     public void testSortedSquaredArrayTwo() {
         int[] result = sorted.sortedSquaredArray(inputArray2);
-        for (int i = 0; i < result.length; i++)
-            Assert.assertEquals(sortedTwo[i], result[i]);
+        assertArrayEquals(sortedTwo, result);
     }
 
     @Test
     public void testSortedSquaredArrayThree() {
         int[] result = sorted.sortedSquaredArray(inputArray3);
-        for (int i = 0; i < result.length; i++)
-            Assert.assertEquals(sortedThree[i], result[i]);
+        assertArrayEquals(sortedThree, result);
     }
 
     @Test
     public void testSortedSquaredArrayFour() {
         int[] result = sorted.sortedSquaredArray(inputArray4);
-        for (int i = 0; i < result.length; i++)
-            Assert.assertEquals(sortedFour[i], result[i]);
+        assertArrayEquals(sortedFour, result);
     }
 
     @Test
     public void testSortedSquaredArrayFive() {
         int[] result = sorted.sortedSquaredArray(inputArray5);
-        for (int i = 0; i < result.length; i++)
-            Assert.assertEquals(sortedFive[i], result[i]);
+        assertArrayEquals(sortedFive, result);
     }
 }

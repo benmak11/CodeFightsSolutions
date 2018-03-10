@@ -1,6 +1,5 @@
 package interviewpractice.sorting;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -25,32 +24,24 @@ public class BubbleSortTest {
     @Test
     public void testBubbleSortOne() {
         int[] result = bubble.bubbleSort(inputArray);
-        for (int i = 0; i < result.length; i++) {
-            Assert.assertEquals(sortedOne[i], result[i]);
-        }
+        assertArrayEquals(sortedOne, result);
     }
 
     @Test
     public void testBubbleSortTwo() {
         int[] result = bubble.bubbleSort(inputArray2);
-        for (int i = 0; i < result.length; i++) {
-            Assert.assertEquals(sortedTwo[i], result[i]);
-        }
+        assertArrayEquals(sortedTwo, result);
     }
 
     @Test
     public void testBubbleSortThree() {
         int[] result = bubble.bubbleSort(inputArray3);
-        for (int i = 0; i < result.length; i++) {
-            Assert.assertEquals(sortedThree[i], result[i]);
-        }
+        assertArrayEquals(sortedThree, result);
     }
 
     @Test
     public void testBubbleSortFour() {
         int[] result = bubble.bubbleSort(inputArray4);
-        for (int i = 0; i < result.length; i++) {
-            Assert.assertEquals(sortedFour[i], result[i]);
-        }
+        assertArrayEquals(sortedFour, result);
     }
 }

@@ -1,6 +1,5 @@
 package interviewpractice.commonTechniquesBasic;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -21,12 +20,12 @@ public class SumInRangeTest {
     @Test
     public void testSumInRangeOne() {
         int result = sum.sumInRange(inputArray, inputArrRange);
-        Assert.assertEquals(10, result);
+        assertEquals(10, result);
     }
 
     @Test
     public void testSumInRangeTwo() {
         int result = sum.sumInRange(inputArray2, inputArrRange2);
-        Assert.assertEquals(999999007, result);
+        assertEquals(999999007, result);
     }
 }

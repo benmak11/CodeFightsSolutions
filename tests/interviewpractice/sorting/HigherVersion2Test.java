@@ -1,6 +1,5 @@
 package interviewpractice.sorting;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -45,60 +44,60 @@ public class HigherVersion2Test {
     @Test
     public void testHigherVersion2One() {
         int result = high.higherVersion2(inputVersionOne, inputVersionTwo);
-        Assert.assertEquals(1, result);
+        assertEquals(1, result);
     }
 
     @Test
     public void testHigherVersion2Two() {
         int result = high.higherVersion2(inputVersionOne2, inputVersionTwo2);
-        Assert.assertEquals(0, result);
+        assertEquals(0, result);
     }
 
     @Test
     public void testHigherVersion2Three() {
         int result = high.higherVersion2(inputVersionOne3, inputVersionTwo3);
-        Assert.assertEquals(1, result);
+        assertEquals(1, result);
     }
 
     @Test
     public void testHigherVersion2Four() {
         int result = high.higherVersion2(inputVersionOne4, inputVersionTwo4);
-        Assert.assertEquals(-1, result);
+        assertEquals(-1, result);
     }
 
     @Test
     public void testHigherVersion2Five() {
         int result = high.higherVersion2(inputVersionOne5, inputVersionTwo5);
-        Assert.assertEquals(1, result);
+        assertEquals(1, result);
     }
 
     @Test
     public void testHigherVersion2Six() {
         int result = high.higherVersion2(inputVersionOne6, inputVersionTwo6);
-        Assert.assertEquals(-1, result);
+        assertEquals(-1, result);
     }
 
     @Test
     public void testHigherVersion2Seven() {
         int result = high.higherVersion2(inputVersionOne7, inputVersionTwo7);
-        Assert.assertEquals(-1, result);
+        assertEquals(-1, result);
     }
 
     @Test
     public void testHigherVersion2Eight() {
         int result = high.higherVersion2(inputVersionOne8, inputVersionTwo8);
-        Assert.assertEquals(-1, result);
+        assertEquals(-1, result);
     }
 
     @Test
     public void testHigherVersion2Nine() {
         int result = high.higherVersion2(inputVersionOne9, inputVersionTwo9);
-        Assert.assertEquals(0, result);
+        assertEquals(0, result);
     }
 
     @Test
     public void testHigherVersion2Ten() {
         int result = high.higherVersion2(inputVersionOne10, inputVersionTwo10);
-        Assert.assertEquals(-1, result);
+        assertEquals(-1, result);
     }
 }

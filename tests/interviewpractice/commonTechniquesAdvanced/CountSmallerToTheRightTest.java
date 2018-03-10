@@ -23,24 +23,18 @@ public class CountSmallerToTheRightTest {
     @Test
     public void testCountSmallerToTheRightOne() {
         int[] result = count.countSmallerToTheRight(inputArray);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray[i], result[i]);
-        }
+        assertArrayEquals(resultArray, result);
     }
 
     @Test
     public void testCountSmallerToTheRightTwo() {
         int[] result = count.countSmallerToTheRight(inputArray2);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray2[i], result[i]);
-        }
+        assertArrayEquals(resultArray2, result);
     }
 
     @Test
     public void testCountSmallerToTheRightThree() {
         int[] result = count.countSmallerToTheRight(inputArray3);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray3[i], result[i]);
-        }
+        assertArrayEquals(resultArray3, result);
     }
 }

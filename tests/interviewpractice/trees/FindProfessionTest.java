@@ -1,6 +1,5 @@
 package interviewpractice.trees;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -16,6 +15,6 @@ public class FindProfessionTest {
     @Test
     public void testFindProfessionOne() {
         String result = fp.findProfession(3, 3 );
-        Assert.assertEquals("D", result);
+        assertEquals("D", result);
     }
 }

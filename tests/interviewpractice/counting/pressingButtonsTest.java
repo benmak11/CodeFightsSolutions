@@ -2,7 +2,7 @@ package interviewpractice.counting;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertArrayEquals;
 
 /**
  * @author benmakusha
@@ -17,9 +17,6 @@ public class pressingButtonsTest {
     @Test
     public void pressingButtons() {
         String[] result = pressingButtons.pressingButtons(inputStr);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(results[i], result[i]);
-        }
-
+        assertArrayEquals(results, result);
     }
 }

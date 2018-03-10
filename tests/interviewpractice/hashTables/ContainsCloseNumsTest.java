@@ -22,24 +22,24 @@ public class ContainsCloseNumsTest {
     @Test
     public void testContainsCloseNumsOne() {
         boolean result = contains.containsCloseNums(inputArray, 3);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testContainsCloseNumsTwo() {
         boolean result = contains.containsCloseNums(inputArray2, 2);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testContainsCloseNumsThree() {
         boolean result = contains.containsCloseNums(inputArray3, 2);
-        Assert.assertFalse(result);
+        assertFalse(result);
     }
 
     @Test
     public void testContainsCloseNumsFour() {
         boolean result = contains.containsCloseNums(inputArray4, 1);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 }

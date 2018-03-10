@@ -1,6 +1,5 @@
 package interviewpractice.trees;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -28,24 +27,24 @@ public class FindSubStringTest {
     @Test
     public void testFindSubstrings() {
         String[] result = find.findSubstrings(words, parts);
-        Assert.assertEquals(testOneResult, result);
+        assertArrayEquals(testOneResult, result);
     }
 
     @Test
     public void testFindSubstringsTwo() {
         String[] result = find.findSubstrings(words2, parts2);
-        Assert.assertEquals(testTwoResult, result);
+        assertArrayEquals(testTwoResult, result);
     }
 
     @Test
     public void testFindSubstringsThree() {
         String[] result = find.findSubstrings(words3, parts3);
-        Assert.assertEquals(testThreeResult, result);
+        assertArrayEquals(testThreeResult, result);
     }
 
     @Test
     public void testFindSubstringsFour() {
         String[] result = find.findSubstrings(words4, parts4);
-        Assert.assertEquals(testFourResult, result);
+        assertArrayEquals(testFourResult, result);
     }
 }

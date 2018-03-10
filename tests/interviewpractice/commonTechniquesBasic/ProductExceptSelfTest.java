@@ -1,7 +1,8 @@
 package interviewpractice.commonTechniquesBasic;
 
-import org.junit.Assert;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * @author benmakusha
@@ -21,12 +22,12 @@ public class ProductExceptSelfTest {
     @Test
     public void testProductExceptSelf() {
         int result = product.productExceptSelf(inputArray, modulo);
-        Assert.assertEquals(2, result);
+        assertEquals(2, result);
     }
 
     @Test
     public void testProductExceptSelfTwo() {
         int result = product.productExceptSelf(inputArray2, modulo2);
-        Assert.assertEquals(220, result);
+        assertEquals(220, result);
     }
 }

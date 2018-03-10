@@ -29,40 +29,30 @@ public class NextLargerTest {
     @Test
     public void testNextLargerOne() {
         int[] result = next.nextLarger(inputArray);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray[i], result[i]);
-        }
+        assertArrayEquals(resultArray, result);
     }
 
     @Test
     public void testNextLargerTwo() {
         int[] result = next.nextLarger(inputArray2);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray2[i], result[i]);
-        }
+        assertArrayEquals(resultArray2, result);
     }
 
     @Test
     public void testNextLargerThree() {
         int[] result = next.nextLarger(inputArray3);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray3[i], result[i]);
-        }
+        assertArrayEquals(resultArray3, result);
     }
 
     @Test
     public void testNextLargerFour() {
         int[] result = next.nextLarger(inputArray4);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray4[i], result[i]);
-        }
+        assertArrayEquals(resultArray4, result);
     }
 
     @Test
     public void testNextLargerFive() {
         int[] result = next.nextLarger(inputArray5);
-        for (int i = 0; i < result.length; i++) {
-            assertEquals(resultArray5[i], result[i]);
-        }
+        assertArrayEquals(resultArray5, result);
     }
 }
