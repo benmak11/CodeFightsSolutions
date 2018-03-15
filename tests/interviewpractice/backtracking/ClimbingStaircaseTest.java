@@ -7,9 +7,9 @@ import static org.junit.Assert.*;
 /**
  * @author benmakusha
  */
-public class ClimbingStairsTest {
+public class ClimbingStaircaseTest {
 
-    private ClimbingStairs stairs = new ClimbingStairs();
+    private ClimbingStaircase stairs = new ClimbingStaircase();
 
     private int steps = 4;
     private int kSteps = 2;

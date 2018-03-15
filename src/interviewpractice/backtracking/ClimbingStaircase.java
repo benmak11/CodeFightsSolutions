@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @author benmakusha
  */
-public class ClimbingStairs {
+public class ClimbingStaircase {
 
     int[][] climbingStaircase(int n, int k) {
         List<List<Integer>> result = new ArrayList<>();
