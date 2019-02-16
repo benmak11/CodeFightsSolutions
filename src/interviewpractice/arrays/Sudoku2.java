@@ -12,7 +12,7 @@ public class Sudoku2 {
     public boolean sudoku2(char[][] grid) {
         for(int index = 0; index < 3; ++index) {
             for(int j = 0; j < 3; ++j) {
-                Set<Character> ifItExists = new HashSet<Character>();
+                Set<Character> ifItExists = new HashSet<>();
                 for(int k = 0; k < 3; ++k) {
                     int row = index * 3 + k;
                     for(int k2 = 0; k2 < 3; ++k2) {
@@ -29,8 +29,8 @@ public class Sudoku2 {
             }
         }
         for(int index = 0; index < 9; ++index) {
-            Set<Character> firstExistence = new HashSet<Character>();
-            Set<Character> secondExistence = new HashSet<Character>();
+            Set<Character> firstExistence = new HashSet<>();
+            Set<Character> secondExistence = new HashSet<>();
             for(int j = 0; j < 9; ++j) {
                 char character = grid[index][j];
                 if(character != '.') {

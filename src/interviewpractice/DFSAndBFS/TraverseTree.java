@@ -26,23 +26,19 @@ public class TraverseTree {
      * Currently utilizing Tree class from trees package
      */
     int[] traverseTree(Tree<Integer> t) {
-        if(t==null)  return new int[0];
-        List<Integer> list = new ArrayList<Integer>();
+        if (t==null)
+            return new int[0];
+        List<Integer> list = new ArrayList<>();
         Queue<Tree<Integer>> q = new LinkedList<>();
         q.add(t);
         while(!q.isEmpty()){
-            int size= q.size();
             Tree<Integer> curr = q.remove();
-            //System.out.println(curr.value);
             list.add(curr.value);
-            if(curr.left!=null) q.add(curr.left);
-            if(curr.right!=null) q.add(curr.right);
-
+            if(curr.left != null)
+                q.add(curr.left);
+            if( curr.right != null)
+                q.add(curr.right);
         }
-        System.out.println(list.toString());
-        int[] num = new int[list.size()];
-        for(int i =0; i< list.size(); i++)
-            num[i]= list.get(i);
-        return num;
+        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }
