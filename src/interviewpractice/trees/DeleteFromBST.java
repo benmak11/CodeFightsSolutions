@@ -7,12 +7,14 @@ package interviewpractice.trees;
 public class DeleteFromBST {
 
     Tree<Integer> deleteFromBST(Tree<Integer> t, int[] queries) {
-        if (queries == null || queries.length == 0) return t;
+        if (queries == null || queries.length == 0)
+            return t;
         Tree<Integer> root = t;
         int q_len = queries.length;
         for (int i = 0; i < q_len; i++) {
             int ele = queries[i];
-            if (root == null) return null;
+            if (root == null)
+                return null;
             root = delete(root, null, false, ele);
         }
         return root;

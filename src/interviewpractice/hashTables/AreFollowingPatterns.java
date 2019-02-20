@@ -37,11 +37,13 @@ public class AreFollowingPatterns {
             String s = m.get(patterns[i]);
             if (s == null) {
                 m.put(patterns[i], strings[i]);
-            } else if (!s.equals(strings[i])) return false;
+            } else if (!s.equals(strings[i]))
+                return false;
             String t = n.get(strings[i]);
             if (t == null) {
                 n.put(strings[i], patterns[i]);
-            } else if (!t.equals(patterns[i])) return false;
+            } else if (!t.equals(patterns[i]))
+                return false;
         }
         return true;
     }

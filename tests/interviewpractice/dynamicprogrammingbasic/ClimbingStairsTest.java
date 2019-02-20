@@ -46,4 +46,17 @@ public class ClimbingStairsTest {
         int result = climb.climbingStairs(42);
         assertEquals(433494437, result);
     }
+
+    @Test
+    public void testClimbingStairsSeven() {
+        int result = climb.climbingStairs(3);
+        assertEquals(3, result);
+    }
+
+    @Test
+    public void testClimbingStairsEight() {
+        int result = climb.climbingStairs(5);
+        assertEquals(8, result);
+    }
+
 }
