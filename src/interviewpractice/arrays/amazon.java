@@ -7,7 +7,7 @@ import java.util.*;
  */
 public class amazon {
 
-    public List<String> reorderLines(int logFileSize, List<String> logfile) {
+    public List<String> reOrderLines(int logFileSize, List<String> logfile) {
         List<String> result = new ArrayList<>();
         List<String> secondPlaced = new ArrayList<>();
         List<List<String>> conversion = new ArrayList<>();

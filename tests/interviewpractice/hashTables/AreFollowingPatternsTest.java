@@ -43,4 +43,10 @@ public class AreFollowingPatternsTest {
         boolean result = are.iterativeAreFollowingPatterns(testStrs2, testPats2);
         assertFalse(result);
     }
+
+    @Test
+    public void testStuff() {
+        String result = are.stuff();
+        System.out.print(result);
+    }
 }

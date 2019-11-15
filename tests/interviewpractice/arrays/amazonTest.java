@@ -28,7 +28,7 @@ public class amazonTest {
         result.add(a2);
         result.add(a4);
 
-        List<String> secRes = az.reorderLines(4, result);
+        List<String> secRes = az.reOrderLines(4, result);
         assertEquals(result, secRes);
     }
 }

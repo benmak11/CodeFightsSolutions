@@ -36,7 +36,7 @@ public class IsCryptSolution {
         return numbers[0] + numbers[1] == numbers[2];
     }
 
-    // implementation fails on leading zero problem
+    // This implementation fails on leading zero problem set
     boolean isCryptSolution2(String[] crypt, char[][] solution) {
         List<Integer> values = new ArrayList<>();
         for (int i = 0; i < crypt.length - 1; i++) {

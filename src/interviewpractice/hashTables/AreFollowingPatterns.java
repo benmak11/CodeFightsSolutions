@@ -47,4 +47,11 @@ public class AreFollowingPatterns {
         }
         return true;
     }
+
+    public String stuff() {
+        String s1 = "Some string";
+        String s2 = "Somre other String";
+        String res = s1 + "\n" + s2;
+        return res;
+    }
 }
