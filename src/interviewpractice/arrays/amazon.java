@@ -48,8 +48,6 @@ public class amazon {
             //logfile.remove(i);
             i++;
         }
-
-
         return result;
     }
 }
