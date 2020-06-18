@@ -1,8 +1,5 @@
 package interviewpractice.arrays;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author benmakusha
  */
