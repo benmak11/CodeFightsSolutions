@@ -14,12 +14,12 @@ public class ComposeRanges {
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] > nums[i - 1] + 1){
                 res.add(first == last ? Integer.toString(first) :
-                        Integer.toString(first) + "->" + Integer.toString(last));
+                        first + "->" + last);
                 first = nums[i];
             }
             last = nums[i];
         }
-        res.add(first == last ? Integer.toString(first) : Integer.toString(first) + "->" + Integer.toString(last));
+        res.add(first == last ? Integer.toString(first) : first + "->" + last);
         String[] result = new String[res.size()];
         result = res.toArray(result);
         return result;
